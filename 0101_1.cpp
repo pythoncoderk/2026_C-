@@ -1,3 +1,8 @@
-//
-// Created by turnt on 2026/01/01.
-//
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    cout << a * d - b * c << endl;
+}
