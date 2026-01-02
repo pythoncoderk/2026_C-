@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    string n;
+    int n;
     cin >> n;
-    cout << n.size() << endl;
+    cout << 6 * n * n << endl;
 }
