@@ -10,7 +10,7 @@ int main() {
         int check;
         cin >> check;
         sum += check;
-        if (check >= k) cnt += check;
+        if (check >= k) cnt++;
     }
     if (cnt >= 3 && sum >= m) cout << "silver";
     else cout << "bronze" << endl;
